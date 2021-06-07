@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView_itemCount"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="right"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />-->
+
+<!--    <ListView-->
+<!--        android:id="@+id/listView_items"-->
+<!--        android:layout_width="201dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:layout_weight="1" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/latitude"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/longitude"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.257" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/altitude"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.426" />
+
+<!--    <menu-->
+<!--        xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        xmlns:app="http://schemas.android.com/apk/res-auto">-->
+
+<!--        <item-->
+<!--            android:id="@+id/new_item"-->
+<!--            android:title="Add new item"-->
+<!--            android:icon="@drawable/ic_add_white_24dp"-->
+<!--            android:orderInCategory="1"-->
+<!--            app:showAsAction="always"/>-->
+
+<!--        <item-->
+<!--            android:id="@+id/delete_all"-->
+<!--            android:title="Delete all items"-->
+<!--            android:icon="@drawable/ic_delete_forever_white_24dp"-->
+<!--            android:orderInCategory="2"-->
+<!--            app:showAsAction="never"/>-->
+
+<!--        <item-->
+<!--            android:id="@+id/help_main"-->
+<!--            android:title="Help"-->
+<!--            android:icon="@drawable/ic_help_outline_white_24dp"-->
+<!--            android:orderInCategory="3"-->
+<!--            app:showAsAction="never"/>-->
+
+<!--    </menu>-->
+
+</LinearLayout>
